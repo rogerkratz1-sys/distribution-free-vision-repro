@@ -1,0 +1,2 @@
+k,metric,mean_null,mean_cluster,delta,ci_low,ci_high,perm_p,cohens_d,median_mutual_count,median_d_avg
+50,davg,0.321193,0.183003,0.138189,0.137573,0.138802,1.99996e-05,19.2293,,0.13301429321979907
