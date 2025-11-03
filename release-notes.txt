@@ -1,0 +1,34 @@
+﻿Appendix E snapshot — A Distribution‑Free Test for Structure in Machine Vision
+
+Summary
+This release is the reproducibility snapshot for Appendix E of the manuscript "A Distribution‑Free Test for Structure in Machine Vision". It contains the per‑k summary CSVs, representative NPZ archives, plotting and aggregation scripts, provenance mapping, and checksums required to reproduce Figure S1 and the extended Δ versus k sensitivity checks.
+
+Included artifacts
+- g_test_outputs.npz — NPZ archive used to generate per‑k summaries
+- g_test_outputs_forced.npz — alternative NPZ with forced settings used for diagnostics
+- gtest_per_k_summary.csv — example per‑run summary CSV
+- per_k_summary.csv, per_k_summary_extended.csv, per_k_summary_from_downloads.csv — aggregated per‑k summaries
+- combined_metrics_k3_k10_final.csv, mutual_davg_summary.csv — supplemental CSVs used for sanity checks
+- plot_delta_vs_k.py, make_per_k_table_from_simple_npz.py (stub), aggregate_per_k_summaries.py (stub) — plotting and aggregation scripts
+- PROVENANCE.md — one‑line mapping from outputs to exact commands and snapshot commit hash
+- CHECKSUMS.txt — SHA256; file sizes for all included artifacts
+- README.md — short bundle description and usage pointers
+- environment.yml — pinned environment spec for reproducibility
+- run_examples.sh — smoke‑test wrapper
+
+How to use
+1. Clone the repository and check out tag v1.0-appendixE.
+2. Confirm checksums: sha256/PowerShell Get-FileHash verification against CHECKSUMS.txt.
+3. For quick verification, run the included smoke test: bash run_examples.sh (or run plot_delta_vs_k.py on the sample CSV).
+4. To reproduce full aggregated tables and figures, follow commands in README.md and PROVENANCE.md. Key numeric conventions: RNG_SEED=20251030, n_perm=50000, n_boot=2000. Permutation p‑values use p=(count+1)/(n_perm+1).
+
+Notes and provenance
+- This release is a frozen snapshot of the repository at tag v1.0-appendixE. PROVENANCE.md lists the commit hash and the exact commands used to produce the main outputs.
+- If you need larger diagnostic NPZs or different resampling budgets, open an issue on this repository with desired RNG_SEED, n_perm, and n_boot.
+
+Citation
+Please cite the manuscript: [Authors], "A Distribution‑Free Test for Structure in Machine Vision", [Journal], [Year]. Repository: distribution-free-vision-repro; DOI: 10.5281/zenodo.17517439.
+
+License
+See LICENSE in the repository for code and data reuse terms.
+
