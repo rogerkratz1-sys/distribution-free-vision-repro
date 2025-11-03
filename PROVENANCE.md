@@ -9,3 +9,4 @@ gtest_per_k_summary.csv  |  per-run aggregated CSV example moved from Downloads 
 per_k_summary_from_downloads.csv  |  per_k CSV copied from Downloads (rename preserved)  |  f3754fb955749f050fda09cc4fd5d2c1cfd76eae
 combined_metrics_k3_k10_final.csv  |  combined metrics used for sanity checks  |  f3754fb955749f050fda09cc4fd5d2c1cfd76eae
 mutual_davg_summary.csv  |  alternative summary for mutual/d_avg  |  f3754fb955749f050fda09cc4fd5d2c1cfd76eae
+2025-11-03T13:12:43.1676175-08:00  Zenodo DOI: 10.5281/zenodo.17517439  Release tag: v1.0-appendixE.2  Commit: 7546a07
