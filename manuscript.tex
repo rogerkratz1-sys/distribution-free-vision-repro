@@ -1,7 +1,18 @@
-Delta versus k plots were produced from per_k_summary_from_downloads.csv generated from g_test_outputs.npz; raw permutation and bootstrap arrays (delta_perms, delta_boots, delta_obs) are archived in the repository. Figures were created with Python (pandas, matplotlib); see CHECKSUMS.txt and requirements.txt for exact provenance.
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath,graphicx}
+\usepackage{hyperref}
+\title{A Distribution-Free Test for Structure in Machine Vision}
+\author{Roger Kratz}
+\date{\today}
+\begin{document}
+\maketitle
+
+Delta versus k plots were produced from \verb|per_k_summary_from_downloads.csv| generated from \verb|g_test_outputs.npz|; see \cite{kratz2025_appendixE} for methods; raw permutation and bootstrap arrays (\verb|delta_perms|, \verb|delta_boots|, \verb|delta_obs|) are archived in the repository.
 
 % Data availability
 The reproducibility snapshot and code for Appendix E are archived on Zenodo (DOI: 10.5281/zenodo.17517439).
 
-The reproducibility snapshot and code for Appendix E are archived on Zenodo (see \\cite{kratz2025_appendixE}).
-
+\bibliographystyle{plain}
+\bibliography{references}
+\end{document}
