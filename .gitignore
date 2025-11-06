@@ -1,0 +1,19 @@
+﻿# Ignore binary and large data outputs
+*.npz
+*.zip
+*.tar.gz
+*.egg-info/
+
+# Python caches and environments
+__pycache__/
+.env
+venv/
+env/
+.Python
+
+# OS/editor files
+*.pyc
+*.pyo
+*.swp
+Thumbs.db
+.DS_Store
