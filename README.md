@@ -1,5 +1,7 @@
 ﻿# README
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17517439.svg)](https://doi.org/10.5281/zenodo.17517439)
+
 **Distribution-free vision reproducibility repository**
 
 Short summary of the project, goals, and intended audience.
@@ -32,3 +34,5 @@ See CONTRIBUTING.md for guidelines on branching, tests, and release process (cre
 ## License
 
 See LICENSE for full terms; add a LICENSE file (e.g., MIT) to make the project re-usable.
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17517439.svg)](https://doi.org/10.5281/zenodo.17517439)
