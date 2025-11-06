@@ -15,3 +15,4 @@
 Zenodo DOI: https://doi.org/10.5281/zenodo.17517439
 per_k_summary_with_hedges.csv — generated from per_k_summary.csv (UTF-16LE) on 2025-11-06 using the one-liner recorded in Supplementary_Data_S1_README.md; hedges_g computed with trial-level ensemble sizes n1 = n2 = 1000 and small-sample correction J = 1 - 3/(4N - 9); output encoded UTF-8.
 per_k_summary_with_hedges_subjectN.csv — generated from per_k_summary_with_hedges.csv on 2025-11-06 using recompute_hedges_per_subject_fixed.py; hedges_g computed with subject counts n = floor(1000/k) per row and small-sample correction J = 1 - 3/(4N - 9); output encoded UTF-8.
+Release v1.0-hedges.1 — commit 67ca1c2; recorded on 2025-11-06T15:36:24; see Supplementary_Data_S1_README.md for regeneration commands.
