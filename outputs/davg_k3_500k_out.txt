@@ -1,0 +1,8 @@
+﻿Available metric,k pairs and counts: {('davg', '3'): 2000}
+n_null = 1000; n_cluster = 1000
+Observed delta (mean_null - mean_cluster): 0.06673173107928905
+Permutations tested: 500000
+Permutations with delta >= observed (one-sided upper tail): 0
+One-sided p-value (with +1 correction): 1.999996000008e-06
+Two-sided p-value (approx, doubled tail): 3.999992000016e-06
+Histogram PNG saved: davg_3_n500000_hist.png

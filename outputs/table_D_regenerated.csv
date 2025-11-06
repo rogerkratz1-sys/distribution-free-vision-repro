@@ -1,0 +1,2 @@
+metric,k,n_null,n_cluster,mean_null,se_null,mean_cluster,se_cluster,delta,perm_p_fast,perm_count_ge_fast
+davg,3,1000,1000,0.0774136969812,8.7727532545e-05,0.0106819659019,2.49014167456e-05,0.0667317310793,0.000499750124938,0
