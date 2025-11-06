@@ -12,3 +12,4 @@
   - Release body and text assets were normalized to UTF-8 (BOM-free) before publishing.
   - Recommended next step for archival citation: create a Zenodo snapshot of this repository at the published tag to mint a DOI.
 
+Zenodo DOI: https://doi.org/10.5281/zenodo.17517439
