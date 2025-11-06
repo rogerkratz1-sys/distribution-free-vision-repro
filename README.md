@@ -1,10 +1,30 @@
-﻿[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17517439.svg)](https://doi.org/10.5281/zenodo.17517439)
-# Appendix E reproducibility bundle
+﻿# README
 
-RNG_SEED=20251030
-n_perm=50000
-n_boot=2000
+**Project title**
 
-See reproducibility/appendix_E_delta_vs_k/README.md for exact reproduction steps.
+Short summary of the project, goals, and intended audience.
 
+## Quick start
 
+1. Clone the repo
+2. Create environment
+   - Python: `python -m venv .venv` ; `.\.venv\Scripts\Activate.ps1` ; `pip install -r environment/requirements.txt`
+3. Run smoke test
+   - `.\verify-environment.ps1` (PowerShell) or `bash scripts/run_smoke.sh`
+
+## Structure
+
+- `scripts/` — analysis and utility scripts
+- `data/` — raw and processed data (large files external; include pointers)
+- `results/` — generated artifacts
+- `docs/` — manuscript and supplementary material
+- `PROVENANCE.md` — provenance and archival record
+- `ARTIFACTS.md` — artifact index and verification
+
+## Contributing
+
+See CONTRIBUTING.md for guidelines on branching, tests, and release process.
+
+## License
+
+Specify license and copyright.
