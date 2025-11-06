@@ -20,3 +20,5 @@ Notes for archivists
 
 Contact
 - Maintainer: Roger Kratz <maintainer@example.org>
+
+DOI: https://doi.org/10.5281/zenodo.17517439
