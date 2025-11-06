@@ -17,3 +17,4 @@ per_k_summary_with_hedges.csv — generated from per_k_summary.csv (UTF-16LE) on
 per_k_summary_with_hedges_subjectN.csv — generated from per_k_summary_with_hedges.csv on 2025-11-06 using recompute_hedges_per_subject_fixed.py; hedges_g computed with subject counts n = floor(1000/k) per row and small-sample correction J = 1 - 3/(4N - 9); output encoded UTF-8.
 Release v1.0-hedges.1 — commit 67ca1c2; recorded on 2025-11-06T15:36:24; see Supplementary_Data_S1_README.md for regeneration commands.
 Release v1.0-hedges.1 — commit 7ef8a51; recorded on 2025-11-06T15:42:29; see Supplementary_Data_S1_README.md for regeneration commands.
+Release v1.0-hedges.1 — commit 401af9d; recorded on 2025-11-06T15:44:15; see Supplementary_Data_S1_README.md for regeneration commands.
