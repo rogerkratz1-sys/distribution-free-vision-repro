@@ -7,5 +7,5 @@ args = p.parse_args()
 if not args.input:
     print('plot_delta_vs_k.py: placeholder. Provide --input per_k_summary_extended.csv to run real plotting.')
     sys.exit(0)
-print(f'Would plot {args.input} -> {args.output or \"plot_delta_vs_k.png\"}')
+print(f"Would plot {args.input} -> {args.output or 'plot_delta_vs_k.png'}")
 sys.exit(0)
