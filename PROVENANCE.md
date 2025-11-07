@@ -88,3 +88,11 @@ Release v1.0-hedges.1 — commit 401af9d; recorded on 2025-11-06T15:44:15; see Sup
 - Derived from: reproducibility/appendix_E_delta_vs_k/g_test_outputs_canonical.npz
 - Repo commit at generation: 50e8530
 - Notes: generated for Appendix E reproduction; reviewer verified file exists and SHA matches output of script.
+
+2025-11-07 11:42:58 UTC — Reviewer-generated per-k NPZ: reproducibility/appendix_E_delta_vs_k/g_test_outputs_davg_k3.npz
+- Command: python run_k_test.py --metric davg --k 3
+- SHA256: C156E67A7DFF56B280E300913AA15AE82ED23FC6E32C765223F4DE685C6512D8
+- Observed keys/shapes: per_trial (2000,); d_null (1000,); d_cluster (1000,); delta_obs (1,); delta_perms (50001,); delta_boots (2001,); meta (scalar)
+- Source trials CSV: auto-detected (trials_davg_k3_for_rerun.csv) or see meta.source_trial_csv
+- Derived from: reproducibility/appendix_E_delta_vs_k/g_test_outputs_canonical.npz
+- Repo commit at generation: 3c7f1db
