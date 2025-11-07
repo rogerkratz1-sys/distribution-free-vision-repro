@@ -53,3 +53,5 @@ Per-k NPZs (examples):
 - reproducibility/appendix_E_delta_vs_k/g_test_outputs_davg_k3.npz
 
 These files include delta_obs, delta_perms (n_perm + 1), delta_boots (n_boot + 1), and canonical d_null / d_cluster arrays. See PROVENANCE.md for extraction details and SHA256 digests.
+#### Reproducing Appendix E per-k NPZs
+Run python run_k_test.py --metric davg --k 3 to generate a per-k NPZ (or pass --trials path/to/trials.csv). The script writes reproducibility/appendix_E_delta_vs_k/g_test_outputs_<metric>_k<k>.npz and prints SHA256 to stdout; copy the SHA into PROVENANCE.md with the repo commit.
