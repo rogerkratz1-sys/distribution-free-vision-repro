@@ -40,3 +40,16 @@ See LICENSE for full terms; add a LICENSE file (e.g., MIT) to make the project r
 Canonical NPZ path: reproducibility/appendix_E_delta_vs_k/g_test_outputs_canonical.npz
 Per-metric NPZs: reproducibility/appendix_E_delta_vs_k/g_test_outputs_d_avg.npz, reproducibility/appendix_E_delta_vs_k/g_test_outputs_mutual.npz
 Use these paths for downstream aggregation and table regeneration.
+## Appendix E canonical NPZs
+
+Canonical NPZ (all-resampling arrays):
+- reproducibility/appendix_E_delta_vs_k/g_test_outputs_canonical.npz
+
+Per-metric extracted NPZs:
+- reproducibility/appendix_E_delta_vs_k/g_test_outputs_d_avg.npz
+- reproducibility/appendix_E_delta_vs_k/g_test_outputs_mutual.npz
+
+Per-k NPZs (examples):
+- reproducibility/appendix_E_delta_vs_k/g_test_outputs_davg_k3.npz
+
+These files include delta_obs, delta_perms (n_perm + 1), delta_boots (n_boot + 1), and canonical d_null / d_cluster arrays. See PROVENANCE.md for extraction details and SHA256 digests.
