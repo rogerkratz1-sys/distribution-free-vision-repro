@@ -112,3 +112,6 @@ Release v1.0-hedges.1 — commit 401af9d; recorded on 2025-11-06T15:44:15; see Sup
 - New SHA256: b0a00a8c4ba358eee58ad9b795e28cefaa29c513c90adf89ca31a32a7d64b5fb
 - Tool: write_fixed_npz.py; file moved into place manually
 - Rationale: ensure per-k NPZ internal consistency (delta_obs matches per_trial summary)
+
+2025-11-07T13:21:46.1563906-08:00 - Added verify_k3.py and REVIEWERS.md; appended verification note to README.md (k=3 canonical NPZ).
+
