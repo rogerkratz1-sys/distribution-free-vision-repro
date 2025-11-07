@@ -127,3 +127,4 @@ Release v1.0-hedges.1 — commit 401af9d; recorded on 2025-11-06T15:44:15; see Sup
 
 2025-11-07T14:07:38.1767066-08:00 - Added appendix_E_delta_vs_k artifacts to repo from local archive_backup.
 
+2025-11-07T14:19:22.4499290-08:00 - Created repo-adjacent zip of appendix_E_delta_vs_k: ..\appendix_E_delta_vs_k_20251107141921.zip. Local working copy archive at ..\archive_backup\appendix_E_delta_vs_k. See archive CHECKSUMS.txt for internal file hashes.
