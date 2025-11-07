@@ -106,3 +106,9 @@ Release v1.0-hedges.1 — commit 401af9d; recorded on 2025-11-06T15:44:15; see Sup
 - Action: recomputed delta_obs = mean(per_trial) and atomically replaced delta_obs
 - New SHA256: B0A00A8C4BA358EEE58AD9B795E28CEFAA29C513C90ADF89CA31A32A7D64B5FB
 - Note: previous delta_obs was the canonical bundle element 0.0; replaced with per_trial-derived value
+
+2025-11-07 12:59:02 UTC — Corrected delta_obs for reproducibility/appendix_E_delta_vs_k/g_test_outputs_davg_k3.npz
+- Action: recomputed delta_obs := mean(per_trial) and replaced NPZ
+- New SHA256: b0a00a8c4ba358eee58ad9b795e28cefaa29c513c90adf89ca31a32a7d64b5fb
+- Tool: write_fixed_npz.py; file moved into place manually
+- Rationale: ensure per-k NPZ internal consistency (delta_obs matches per_trial summary)
