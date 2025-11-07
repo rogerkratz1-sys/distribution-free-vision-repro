@@ -96,3 +96,8 @@ Release v1.0-hedges.1 — commit 401af9d; recorded on 2025-11-06T15:44:15; see Sup
 - Source trials CSV: auto-detected (trials_davg_k3_for_rerun.csv) or see meta.source_trial_csv
 - Derived from: reproducibility/appendix_E_delta_vs_k/g_test_outputs_canonical.npz
 - Repo commit at generation: 3c7f1db
+
+2025-11-07 12:01:01 UTC — Corrected delta_obs in reproducibility/appendix_E_delta_vs_k/g_test_outputs_davg_k3.npz
+- Action: recomputed delta_obs = mean(per_trial) and atomically replaced delta_obs
+- New SHA256: B0A00A8C4BA358EEE58AD9B795E28CEFAA29C513C90ADF89CA31A32A7D64B5FB
+- Note: previous delta_obs was the canonical bundle element 0.0; replaced with per_trial-derived value
