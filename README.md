@@ -36,3 +36,19 @@ See CONTRIBUTING.md for guidelines on branching, tests, and release process (cre
 See LICENSE for full terms; add a LICENSE file (e.g., MIT) to make the project re-usable.
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17517439.svg)](https://doi.org/10.5281/zenodo.17517439)
+#### Sentinel handling for per-sample arrays
+
+Some per-sample arrays in g_test_outputs.npz (d_null, d_cluster, m_null, m_cluster) contain a non-data sentinel at index 0 (value 0.0). Downstream scripts that compute per-sample statistics should follow one of these conventions:
+
+- Trim for per-sample analyses (recommended for plots, effect-size computation, CSV regeneration): drop index 0 so arrays contain only true samples. Use this when producing publication tables, figures, or CSV outputs.
+- Ignore for archive-preserving checks: keep the NPZ unchanged but explicitly skip index 0 when computing summary statistics.
+- Document which approach you used in PROVENANCE.md so reviewers can audit the decision.
+
+#### Sentinel handling for per-sample arrays
+
+Some per-sample arrays in g_test_outputs.npz (d_null, d_cluster, m_null, m_cluster) contain a non-data sentinel at index 0 (value 0.0). Downstream scripts that compute per-sample statistics should follow one of these conventions:
+
+- Trim for per-sample analyses (recommended for plots, effect-size computation, CSV regeneration): drop index 0 so arrays contain only true samples. Use this when producing publication tables, figures, or CSV outputs.
+- Ignore for archive-preserving checks: keep the NPZ unchanged but explicitly skip index 0 when computing summary statistics.
+- Document which approach you used in PROVENANCE.md so reviewers can audit the decision.
+
