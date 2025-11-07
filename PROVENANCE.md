@@ -121,3 +121,6 @@ Release v1.0-hedges.1 — commit 401af9d; recorded on 2025-11-06T15:44:15; see Sup
 
 2025-11-07T13:25:19.5363920-08:00 - Tagged v0.1.1-k3-fix; added verify_k3.py, REVIEWERS.md, README verification note, and updated CHECKSUMS.txt (canonical k=3 NPZ SHA).
 
+
+2025-11-07T13:54:51.7727592-08:00 - Fast-forwarded to origin/main; run_g_tests.py removed in that update. Stash created before update: WIP: stash before fast-forward from origin/main.
+
