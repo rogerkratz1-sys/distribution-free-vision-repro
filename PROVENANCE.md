@@ -23,3 +23,11 @@ Release v1.0-hedges.1 — commit 401af9d; recorded on 2025-11-06T15:44:15; see S
 2025-11-06: Added CHECKSUMS.txt entries for release-outputs-v1.0-perms-repro.zip (51831867B3EE7632D5ED871971C4700712F9E752B7660F405C4E5776CEDA9D6E) and plot_delta_vs_k_from_npz.png (047CCE40E93BB6D0CEBED2CF52CE1A9ADA77168FEC0639FAE1BF53E7F0550EC9).
 2025-11-06: Added placeholder scripts for Appendix E and documented canonical originals in release-outputs-v1.0-perms-repro.zip.
 2025-11-06: Converted per_k_summary.csv and per_k_summary_extended.csv from UTF-16 LE to UTF-8 for cross-platform reproducibility.
+2025-11-06: ARCHIVE created at ..\release-outputs-v1.0-perms-repro_20251106-205208.zip; SHA256: 46C5BB2E1E94330B3191E3AA20E3B8ECDF6179CBCFC9A9393D6F648C6317D9A1; contents: aggregate_per_k_summaries.py; make_per_k_table_from_simple_npz.py; run_g_tests.py; PROVENANCE.md; per_k_summary_agg.csv; per_k_table_from_npz.csv; g_test_outputs.npz (if present).
+2025-11-07 10:44:17 UTC — Added canonical NPZ: reproducibility\\appendix_E_delta_vs_k\\g_test_outputs_canonical.npz
+- Source: existing g_test_outputs.npz found in repo root
+- Action: copied into repository canonical folder for archival
+- SHA256: <SHA256>
+- Repo commit: 09b0a08
+- Keys expected: d_null, d_cluster, m_null, m_cluster, delta_perms, delta_boots, delta_obs
+- Notes: delta_perms length should be 50001 and delta_boots length should be 2001; verify mapping of delta_obs to metrics before automated aggregation.
