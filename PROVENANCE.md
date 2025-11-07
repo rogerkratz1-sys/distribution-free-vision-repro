@@ -54,3 +54,10 @@ Release v1.0-hedges.1 — commit 401af9d; recorded on 2025-11-06T15:44:15; see Sup
 - SHA256: 12A3D8AAE98AFF9F4715F1907A8E0954BE7C23391D22B747C457F03E6DEE31EC
 - Repo commit: c2da193
 - Notes: per_trial array extracted from trials_davg_k3_for_rerun.csv; delta_obs mapping follows canonical NPZ (index 0 => d_avg).
+2025-11-07 11:13:46 UTC — Generated per-k NPZ via run_k_test.py
+- File: reproducibility/appendix_E_delta_vs_k/g_test_outputs_davg_k3.npz
+- Metric/k: davg / 3
+- SHA256: C156E67A7DFF56B280E300913AA15AE82ED23FC6E32C765223F4DE685C6512D8
+- Source trials CSV: auto-detected (trials_davg_k3_for_rerun.csv) or provided by user
+- Derived from: reproducibility/appendix_E_delta_vs_k/g_test_outputs_canonical.npz
+- Repo commit at generation: 233bc09
