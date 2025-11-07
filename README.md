@@ -36,3 +36,7 @@ See CONTRIBUTING.md for guidelines on branching, tests, and release process (cre
 See LICENSE for full terms; add a LICENSE file (e.g., MIT) to make the project re-usable.
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17517439.svg)](https://doi.org/10.5281/zenodo.17517439)
+## Appendix E canonical NPZs
+Canonical NPZ path: reproducibility/appendix_E_delta_vs_k/g_test_outputs_canonical.npz
+Per-metric NPZs: reproducibility/appendix_E_delta_vs_k/g_test_outputs_d_avg.npz, reproducibility/appendix_E_delta_vs_k/g_test_outputs_mutual.npz
+Use these paths for downstream aggregation and table regeneration.
