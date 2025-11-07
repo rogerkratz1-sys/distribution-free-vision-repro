@@ -22,3 +22,4 @@ Release v1.0-hedges.1 — commit 401af9d; recorded on 2025-11-06T15:44:15; see S
 2025-11-06: Added SHA256 for plot_delta_vs_k_from_npz.png (047CCE40E93BB6D0CEBED2CF52CE1A9ADA77168FEC0639FAE1BF53E7F0550EC9).
 2025-11-06: Added CHECKSUMS.txt entries for release-outputs-v1.0-perms-repro.zip (51831867B3EE7632D5ED871971C4700712F9E752B7660F405C4E5776CEDA9D6E) and plot_delta_vs_k_from_npz.png (047CCE40E93BB6D0CEBED2CF52CE1A9ADA77168FEC0639FAE1BF53E7F0550EC9).
 2025-11-06: Added placeholder scripts for Appendix E and documented canonical originals in release-outputs-v1.0-perms-repro.zip.
+2025-11-06: Converted per_k_summary.csv and per_k_summary_extended.csv from UTF-16 LE to UTF-8 for cross-platform reproducibility.
