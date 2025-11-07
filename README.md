@@ -52,3 +52,5 @@ Some per-sample arrays in g_test_outputs.npz (d_null, d_cluster, m_null, m_clust
 - Ignore for archive-preserving checks: keep the NPZ unchanged but explicitly skip index 0 when computing summary statistics.
 - Document which approach you used in PROVENANCE.md so reviewers can audit the decision.
 
+
+Note: verify_npz_and_d.py now trims a leading sentinel (index 0) from per-sample arrays when computing summaries; see PROVENANCE.md for the patch record.
