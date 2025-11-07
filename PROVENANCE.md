@@ -20,3 +20,4 @@ Trimmed leading sentinel from d_*/m_* in g_test_outputs.npz; backup saved as g_t
 Note: g_test_outputs.npz contains a leading sentinel value (index 0 == 0.0) for d_*/m_* arrays; verification scripts explicitly ignore index-0 when computing per-sample statistics. Recorded on 2025-11-06T16:01:38
 
 2025-11-06 16:23 UTC  |  verify_npz_and_d.py  |  Trimmed leading sentinel at index 0 from per-sample arrays (d_null, d_cluster, m_null, m_cluster) so downstream summaries and CSV regeneration use only true samples. Backup saved as verify_npz_and_d.py.pretrim.bak and verify_npz_and_d.py.backup.pretrim.
+2025-11-06: Regenerated CHECKSUMS.txt to fix malformed line endings; reconstructed verify_npz_and_d.py.pretrim.bak from verify_npz_and_d.py.backup.pretrim; uploaded corrected CHECKSUMS.txt to release v1.0.2.
