@@ -61,3 +61,12 @@ Release v1.0-hedges.1 — commit 401af9d; recorded on 2025-11-06T15:44:15; see Sup
 - Source trials CSV: auto-detected (trials_davg_k3_for_rerun.csv) or provided by user
 - Derived from: reproducibility/appendix_E_delta_vs_k/g_test_outputs_canonical.npz
 - Repo commit at generation: 233bc09
+
+2025-11-07 11:19:43 UTC — Reviewer-generated per-k NPZ via run_k_test.py
+- File: reproducibility/appendix_E_delta_vs_k/g_test_outputs_<metric>_k<k>.npz
+- Command: python run_k_test.py --metric <metric> --k <k> [--trials path/to/trials.csv]
+- SHA256: <PASTE_SHA256_HERE>
+- Source trials CSV: <trials filename or auto-detected>
+- Derived from: reproducibility/appendix_E_delta_vs_k/g_test_outputs_canonical.npz
+- Repo commit at generation: <short-commit-sha>
+- Notes: <optional notes about mapping, preprocessing, or differences>
