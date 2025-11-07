@@ -18,3 +18,4 @@ per_k_summary_with_hedges_subjectN.csv — generated from per_k_summary_with_hed
 Release v1.0-hedges.1 — commit 67ca1c2; recorded on 2025-11-06T15:36:24; see Supplementary_Data_S1_README.md for regeneration commands.
 Release v1.0-hedges.1 — commit 7ef8a51; recorded on 2025-11-06T15:42:29; see Supplementary_Data_S1_README.md for regeneration commands.
 Release v1.0-hedges.1 — commit 401af9d; recorded on 2025-11-06T15:44:15; see Supplementary_Data_S1_README.md for regeneration commands.
+2025-11-06: Replaced release CHECKSUMS.txt to match canonical local CHECKSUMS.txt (SHA256: 3A9833BE94D85E557AE3555CC849481ACD7D3300D952325ED9C612D122DBE759).
