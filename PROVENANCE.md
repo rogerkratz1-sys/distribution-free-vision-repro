@@ -124,3 +124,6 @@ Release v1.0-hedges.1 — commit 401af9d; recorded on 2025-11-06T15:44:15; see Sup
 
 2025-11-07T13:54:51.7727592-08:00 - Fast-forwarded to origin/main; run_g_tests.py removed in that update. Stash created before update: WIP: stash before fast-forward from origin/main.
 
+
+2025-11-07T14:07:38.1767066-08:00 - Added appendix_E_delta_vs_k artifacts to repo from local archive_backup.
+
