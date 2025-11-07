@@ -48,3 +48,9 @@ Release v1.0-hedges.1 — commit 401af9d; recorded on 2025-11-06T15:44:15; see Sup
 - Repo commit: 6e9c84f
 - Keys included: {per-metric arrays plus delta_obs (single element), delta_perms, delta_boots, meta}
 - Note: delta_obs mapping assumed index 0 => d_avg, index 1 => mutual (see PROVENANCE.md mapping note)
+2025-11-07 11:05:28 UTC — Added per-k NPZ: reproducibility/appendix_E_delta_vs_k/g_test_outputs_davg_k3.npz
+- Source: trials CSV used: trials_davg_k3_for_rerun.csv
+- Derived from: reproducibility/appendix_E_delta_vs_k/g_test_outputs_canonical.npz
+- SHA256: 12A3D8AAE98AFF9F4715F1907A8E0954BE7C23391D22B747C457F03E6DEE31EC
+- Repo commit: c2da193
+- Notes: per_trial array extracted from trials_davg_k3_for_rerun.csv; delta_obs mapping follows canonical NPZ (index 0 => d_avg).
