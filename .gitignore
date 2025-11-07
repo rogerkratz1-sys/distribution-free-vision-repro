@@ -17,3 +17,7 @@ env/
 *.swp
 Thumbs.db
 .DS_Store
+
+# allow canonical appendix E NPZs
+!reproducibility/appendix_E_delta_vs_k/
+!reproducibility/appendix_E_delta_vs_k/*.npz
