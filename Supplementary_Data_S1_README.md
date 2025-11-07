@@ -10,3 +10,6 @@ python -c "import pandas as pd; df=pd.read_csv('per_k_summary.csv',encoding='utf
 
 - Recreate per_k_summary_with_hedges_subjectN.csv (Hedges g using subject counts n = floor(1000/k))
 python -c "import pandas as pd; df=pd.read_csv('per_k_summary_with_hedges.csv',encoding='utf-8'); df['k']=df['k'].astype(int); df['n_subj']=(1000//df['k']).astype(int); N=2*df['n_subj']; J=1.0-3.0/(4.0*N-9.0); df['cohens_d']=pd.to_numeric(df['cohens_d'],errors='coerce'); df['hedges_g']=df['cohens_d']*J; df.to_csv('per_k_summary_with_hedges_subjectN.csv',index=False,encoding='utf-8'); print('Wrote per_k_summary_with_hedges_subjectN.csv')"
+
+Note: Canonical versions of aggregate_per_k_summaries.py, make_per_k_table_from_simple_npz.py, run_g_tests.py, and any large per-trial NPZ diagnostics (trial_k*.npz) are available in release-outputs-v1.0-perms-repro.zip on the release page. Extract that ZIP for the original scripts and large binaries.
+

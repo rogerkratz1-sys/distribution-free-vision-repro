@@ -21,3 +21,4 @@ Release v1.0-hedges.1 — commit 401af9d; recorded on 2025-11-06T15:44:15; see S
 2025-11-06: Replaced release CHECKSUMS.txt to match canonical local CHECKSUMS.txt (SHA256: 3A9833BE94D85E557AE3555CC849481ACD7D3300D952325ED9C612D122DBE759).
 2025-11-06: Added SHA256 for plot_delta_vs_k_from_npz.png (047CCE40E93BB6D0CEBED2CF52CE1A9ADA77168FEC0639FAE1BF53E7F0550EC9).
 2025-11-06: Added CHECKSUMS.txt entries for release-outputs-v1.0-perms-repro.zip (51831867B3EE7632D5ED871971C4700712F9E752B7660F405C4E5776CEDA9D6E) and plot_delta_vs_k_from_npz.png (047CCE40E93BB6D0CEBED2CF52CE1A9ADA77168FEC0639FAE1BF53E7F0550EC9).
+2025-11-06: Added placeholder scripts for Appendix E and documented canonical originals in release-outputs-v1.0-perms-repro.zip.
