@@ -58,3 +58,8 @@ Run python run_k_test.py --metric davg --k 3 to generate a per-k NPZ (or pass --
 
 Verification note for Appendix E k=3: the canonical NPZ is reproducibility/appendix_E_delta_vs_k/g_test_outputs_davg_k3.npz (expected SHA256 b0a00a8c4ba358eee58ad9b795e28cefaa29c513c90adf89ca31a32a7d64b5fb). Confirm correctness by running the included verifier: python verify_k3.py (it checks the SHA and that delta_obs == mean(per_trial)). To regenerate from source, run the patched runner: python run_k_test.py --metric davg --k 3. If you regenerate, record the new SHA and brief rationale in PROVENANCE.md.
 
+# #   C i t e   t h i s   p r o j e c t 
+ 
+ -   P r o j e c t   l a n d i n g   ( a l l   v e r s i o n s ) :   h t t p s : / / d o i . o r g / 1 0 . 5 2 8 1 / z e n o d o . 1 7 5 1 7 4 3 8 
+ -   T h i s   s n a p s h o t   ( e x a c t   f i l e s   u s e d   i n   t h i s   r e p o s i t o r y ,   v 1 . 0 - a p p e n d i x E . 3 ) :   h t t p s : / / d o i . o r g / 1 0 . 5 2 8 1 / z e n o d o . 1 7 5 5 5 4 9 0  
+ 
