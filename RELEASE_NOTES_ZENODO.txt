@@ -1,0 +1,9 @@
+﻿Appendix E reproducibility snapshot — v1.0-appendixE.3
+
+Zenodo DOI (this version): https://doi.org/10.5281/zenodo.17555490
+Concept DOI (all versions): https://doi.org/10.5281/zenodo.17517438
+Zip SHA256: A31AA8C8C2C25D8F2B2D960EEC9E8BC9182C01D53CC511D8A560DA4D78037077
+
+Notes:
+- Regenerated per_k CSVs from canonical NPZ.
+- Updated CHECKSUMS.txt and PROVENANCE.md to reflect fixes and checksums.
